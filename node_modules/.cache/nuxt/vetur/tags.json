@@ -1,0 +1,41 @@
+{
+  "AboutSection": {
+    "description": "Auto imported from components/AboutSection.vue"
+  },
+  "AboutSection2": {
+    "description": "Auto imported from components/AboutSection2.vue"
+  },
+  "AboutSection3": {
+    "description": "Auto imported from components/AboutSection3.vue"
+  },
+  "Benefit": {
+    "description": "Auto imported from components/Benefit.vue"
+  },
+  "ContactUs": {
+    "description": "Auto imported from components/ContactUs.vue"
+  },
+  "Features": {
+    "description": "Auto imported from components/Features.vue"
+  },
+  "FooterSection": {
+    "description": "Auto imported from components/FooterSection.vue"
+  },
+  "FreeTrial": {
+    "description": "Auto imported from components/FreeTrial.vue"
+  },
+  "HomeSection": {
+    "description": "Auto imported from components/HomeSection.vue"
+  },
+  "Integration": {
+    "description": "Auto imported from components/Integration.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "Partnership": {
+    "description": "Auto imported from components/Partnership.vue"
+  },
+  "Value": {
+    "description": "Auto imported from components/Value.vue"
+  }
+}
