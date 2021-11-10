@@ -13,7 +13,7 @@
             </v-row>
         </v-col>
         <v-col class="col-12 col-md-6">
-            <v-img class="mb-5 mr-auto" lazy-src="bg-vector.png" src="bg-vector.png" style="max-width:500px; max-height:500px;"></v-img>
+            <v-img class="mb-5 mr-auto" lazy-src="omni/All-Channel-Integrations-min.png" src="omni/All-Channel-Integrations-min.png" style="max-width:500px; max-height:500px;"></v-img>
         </v-col>
     </v-row>
 </template>

@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="d-flex justify-center text-center mt-5">
-                 <span class="font-weight-light" style="width: 700px; font-size: 20px;">Omnichannel Botika will provide you the best Customer Service Software and a lot of tools you can use so you can keep track with all conversation.</span>
+                 <span class="font-weight-light" style="width: 700px; font-size: 20px;">Omnichannel Botika will provide you the best customer service software and a lot of tools you can use so you can keep track with all conversation.</span>
             </div>
             <v-row class="pt-10">
                 <v-col class="col-12 col-sm-6 col-md-4">
@@ -90,7 +90,7 @@
                 <v-col class="col-12 col-sm-6 col-md-4">
                     <v-card class="text-center mx-auto gr-blue ml-0 pt-md-5" width="330" height="200" max-height="100%" max-width="100%" outlined>
                         <v-icon x-large>
-                            mdi-cellphone-wireless
+                            mdi-phone-outline
                         </v-icon>
                         <div class="pt-5">
                           <v-col cols="12" class="pa-0">

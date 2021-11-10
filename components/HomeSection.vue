@@ -47,11 +47,11 @@
           <div class="main-wrap">
             <div class="container" fluid>
               <div class="row d-flex justify-center align-center">
-                <v-col cols="7" lg="7" md="7" sm="12" xs="12">
-                  <div class="row pb-0 pb-md-0 pb-sm-15" style="max-width: 680px;">
-                    <h1 class="text-md-2 font-weight-bold" style="max-width: 680px;">Improve the way you works</h1>
-                    <div class="pt-5 pt-md-5 pt-sm-8">
-                      <p style="max-width: 550px; font-size: 18px;">Omnichannel Botika will help you improve customer experience,  providing the tools you will need, and bring your team to connect with the worlds.</p>
+                <v-col cols="7" lg="6" md="6" sm="12" xs="12">
+                  <div class="text-center text-md-left row pb-0 pb-md-0 pb-sm-15" style="max-width: 680px;">
+                    <h1 class="text-md-2 font-weight-bold pb-6" style="max-width: 680px;">Improve the way you works</h1>
+                    <div class="pt-2 pt-md-2 pt-sm-8">
+                      <p class="pb-5" style="max-width: 550px; font-size: 18px;">Omnichannel Botika will help you improve customer experience,  providing the tools you will need, and bring your team to connect with the worlds.</p>
                     </div>
                   </div>
                   <div>
@@ -79,12 +79,12 @@
                     </div>
                   </div>
                 </v-col>
-                <v-col lg="5" md="5" sm="12" align="center">
+                <v-col lg="6" md="6" sm="12" align="center">
                   <v-img
-                    lazy-src="https://picsum.photos/id/11/500/300"
-                    src="https://picsum.photos/id/11/500/300"
-                    max-width="100%"
-                    max-height="100%"
+                    lazy-src="omni/Header-min.png"
+                    src="omni/Header-min.png"
+                    max-width="95%"
+                    max-height="95%"
                   >
 
                   </v-img>

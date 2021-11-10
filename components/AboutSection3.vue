@@ -1,13 +1,13 @@
 <template>
     <v-row justify="center" align="center">        
         <v-col class="col-12 col-md-6 order-last order-md-first">
-            <v-img class="mb-5 ml-auto" lazy-src="bg-vector.png" src="bg-vector.png" style="max-width:500px; max-height:500px;"></v-img>
+            <v-img class="mb-5 ml-auto" lazy-src="omni/Chat-console-min.png" src="omni/Chat-console-min.png" style="max-width:500px; max-height:500px;"></v-img>
         </v-col>
         <v-col class="col-12 col-md-6 mb-15 mb-md-15 mb-sm-0 order-first order-md-last">
             <div class="pl-md-15 mr-auto">
                 <h2 class="my-5" style="max-width:300px;">Solve your Customers Tickets with Ease</h2>
                 <p class="my-6" style="max-width:400px;">
-                    Answer Customer's Tickets with ease and handle it with your team to achieve success.
+                    Answer customer's tickets with ease and handle it with your team to achieve success.
                 </p>
             </div>
         </v-col>

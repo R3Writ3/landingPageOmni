@@ -10,7 +10,7 @@
           <v-col cols="12">
             <v-row style="max-width: 300px;">
               <v-col cols="3">
-                <a href="">
+                <a href="https://www.linkedin.com/company/botika/">
                   <v-icon
                     max-width="100%"
                     max-height="100%"
@@ -21,7 +21,7 @@
                 </a>
               </v-col>
               <v-col cols="3">
-                <a href="">
+                <a href="https://www.facebook.com/botikaonline/">
                   <v-icon
                     max-width="100%"
                     max-height="100%"
@@ -32,7 +32,7 @@
                 </a>
               </v-col>
               <v-col cols="3">
-                <a href="">
+                <a href="https://twitter.com/BotikaOnline">
                   <v-icon
                     max-width="100%"
                     max-height="100%"
@@ -43,7 +43,7 @@
                 </a>
               </v-col>
               <v-col cols="3">
-                <a href="">
+                <a href="https://www.instagram.com/botikaonline/?hl=en">
                   <v-icon
                     max-width="100%"
                     max-height="100%"
