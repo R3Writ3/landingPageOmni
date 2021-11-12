@@ -18,17 +18,19 @@
         </v-container>
       <!-- </v-main>
       <v-main style="height: 800px"> -->
-        <v-container class="bg-2 py-15" fluid>
-          <Benefit />
+        <v-container>
+          <v-container class="bg-2 py-15">
+            <Benefit />
+          </v-container>
         </v-container>
       <!-- </v-main>
       <v-main class="d-flex align-center" style="height: 700px"> -->
-        <v-container class="bg-3 pa-0 mb-10 py-15 px-13">
+        <v-container class="bg-3 pa-0 mb-10 py-15 px-13" fluid>
           <Integration />
         </v-container>
       <!-- </v-main>
       <v-main> -->
-        <v-container class="bg-4 py-10 mb-0 mb-md-0 mb-sm-15" fluid>
+        <v-container class="bg-4 py-10" fluid>
           <AboutSection />
         </v-container>
         <v-container class="line1 mb-15 d-none d-md-flex d-lg-flex d-xl-flex">
@@ -68,20 +70,10 @@
 
 
 <style>
-  @font-face {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: bold;
-    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-  }
   .gr-blue{
     background: linear-gradient(180deg, #1F77EA 0%, #448EEE 100%);
     box-shadow: 0px 6px 12px rgba(7, 0, 11, 0.2);
     border-radius: 20px;
-  }
-  .box1sm{
-    width: auto;
-    height: 100px;
-    border: 15px solid green;
   }
   .theme--light.v-application {
     background-color: #ffffff;
@@ -152,7 +144,7 @@
     flex: 1 1 auto;
     max-width: 100%;
     height: 100%;
-    max-height: 1150px;
+    max-height: 1100px;
     position: relative;
     background: linear-gradient(99.14deg, #1052A8 4.94%, #1F77EA 100%);
     background-repeat: no-repeat;

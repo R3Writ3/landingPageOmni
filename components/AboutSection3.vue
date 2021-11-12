@@ -1,15 +1,18 @@
 <template>
-    <v-row justify="center" align="center">        
-        <v-col class="col-12 col-md-6 order-last order-md-first">
-            <v-img class="mb-5 ml-auto" lazy-src="omni/Chat-console-min.png" src="omni/Chat-console-min.png" style="max-width:500px; max-height:500px;"></v-img>
+    <v-row class="text-center text-md-left">
+        <v-col class="col-12 col-md-6 ml-md-10 order-last order-md-first">
+            <v-img class="ma-auto ma-lg-0 ml-lg-auto" :src="require('@/assets/img/omni/Chat-console-min.webp')" style="max-width:500px; max-height:500px;"></v-img>
         </v-col>
-        <v-col class="col-12 col-md-6 mb-15 mb-md-15 mb-sm-0 order-first order-md-last">
-            <div class="pl-md-15 mr-auto">
-                <h2 class="my-5" style="max-width:300px;">Solve your Customers Tickets with Ease</h2>
-                <p class="my-6" style="max-width:400px;">
-                    Answer customer's tickets with ease and handle it with your team to achieve success.
-                </p>
-            </div>
+        <v-col class="col-12 col-md-4 order-first order-md-last">
+            <h2 class="d-none d-md-flex d-lg-flex ma-auto my-5" style="max-width:350px;">Solve your Customers Tickets with Ease</h2>
+            <p class="d-none d-md-flex d-lg-flex ma-auto my-6" style="max-width:350px;">
+                Answer customer's tickets with ease and handle it with your team to achieve success.
+            </p>
+            <!-- Only visible in SM or below -->
+            <h2 class="d-md-none d-lg-none ma-auto my-5">Solve your Customers Tickets with Ease</h2>
+            <p class="d-md-none d-lg-none ma-auto my-6">
+                Answer customer's tickets with ease and handle it with your team to achieve success.
+            </p>
         </v-col>
     </v-row>
 </template>

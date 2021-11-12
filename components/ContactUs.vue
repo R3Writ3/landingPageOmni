@@ -2,8 +2,9 @@
     <v-row>
         <v-col cols="12" class="px-5">
             <div class="text-center">
-                <h2>Have a question for us?</h2>
-                <h2>Our team is always ready for your needs</h2>                              
+                <h2 class="text-md-h2 font-weight-bold">Have a question for us?</h2>
+                <br/>
+                <h2 class="text-md-h2 font-weight-bold">Our team is always ready for your needs</h2>                              
             </div>
         </v-col>
         <v-col cols="12" class="mt-5">

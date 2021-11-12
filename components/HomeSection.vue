@@ -1,164 +1,91 @@
 <template>
-  <v-row justify="center" align="center" class="ml-md-1 mr-md-1" fluid>
-      <v-col cols="12">
-          <v-app-bar 
-            hide-on-scroll
-            app color="transparent" 
-            elevation="0" 
-            class="mt-md-2 px-md-16"
-          >
-            <p class="omni">OMNIBOTIKA</p>
-            <v-spacer></v-spacer>
+    <v-container fluid>
+      <v-row class="ma-auto px-md-7">
+        <p class="omni-logo">OMNIBOTIKA</p>
+        <v-spacer></v-spacer>
+        <v-btn 
+              small
+              color="#f9f9f9"
+              class="btn1 mb-md-3 mr-md-2 d-none d-md-flex d-lg-flex d-xl-flex"
+              style="border-width: 1.5px;"
+              outlined
+            >
+              REGISTER
+            </v-btn>
 
-            <div class="text-center">
-              <v-row align="center">
-                <!-- <v-select
-                  :items="items"
-                  class="mr-md-4 mt-md-1 d-none d-md-flex d-lg-flex d-xl-flex"
-                  value="EN"
-                  color="#f9f9f9"
-                >
-                </v-select> -->
+            <v-btn 
+              small
+              color="#f9f9f9"
+              class="btn1 mb-3 mb-md-3 mb-sm-4"
+              elevation="0"
+            >
+              <a color="#1052A8">LOGIN</a>
+            </v-btn>
+      </v-row> 
 
-                <v-btn 
-                  small
-                  color="#f9f9f9"
-                  class="btn1 mb-md-3 mr-md-2 d-none d-md-flex d-lg-flex d-xl-flex"
-                  style="border-width: 1.5px;"
-                  outlined
-                >
-                  REGISTER
-                </v-btn>
+      <v-row class="text-center text-md-left px-md-7" justify="space-between">
+        <v-col class="py-0 py-xl-15 py-lg-5" cols="12" md="6">
+          <h1 class="d-none d-md-flex d-lg-flex mt-10" style="max-width: 680px;">Improve the way you works</h1>
+          <p class="d-none d-md-flex d-lg-flex my-10" style="max-width: 550px;">
+              Omnichannel Botika will help you improve customer experience, providing 
+              the tools you will need, and bring your team to connect with the worlds.
+          </p>
+          <!-- Only visible in SM or below -->
+          <h1 class="d-md-none d-lg-none mt-10">Improve the way you works</h1>
+          <p class="d-md-none d-lg-none my-6">
+              Omnichannel Botika will help you improve customer experience, providing 
+              the tools you will need, and bring your team to connect with the worlds.
+          </p>
 
-                <v-btn 
-                  small
-                  color="#f9f9f9"
-                  class="btn1 mb-3 mb-md-3 mb-sm-4"
-                  elevation="0"
-                >
-                  <a color="#1052A8">LOGIN</a>
-                </v-btn>          
-              </v-row>
-            </div>
-          </v-app-bar>
-
-
-        <v-col cols="12">
-          <div class="main-wrap">
-            <div class="container" fluid>
-              <div class="row d-flex justify-center align-center">
-                <v-col cols="7" lg="6" md="6" sm="12" xs="12">
-                  <div class="text-center text-md-left row pb-0 pb-md-0 pb-sm-15" style="max-width: 680px;">
-                    <h1 class="text-md-2 font-weight-bold pb-6" style="max-width: 680px;">Improve the way you works</h1>
-                    <div class="pt-2 pt-md-2 pt-sm-8">
-                      <p class="pb-5" style="max-width: 550px; font-size: 18px;">Omnichannel Botika will help you improve customer experience,  providing the tools you will need, and bring your team to connect with the worlds.</p>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="row mt-10 mt-md-10 mt-sm-15">
-                        <v-btn
-                          x-large
-                          color="#f9f9f9"
-                          class="btn1"
-                          max-width="250"
-                          style="width: 250px;"
-                          elevation="0"
-                        >
-                          <a class="text-h6 font-weight-black" color="#1052A8">Try It For Free</a>
-                        </v-btn>
-                        <v-btn
-                          x-large
-                          color="#f9f9f9"
-                          class="btn1 ml-md-4 text-subtitle-1 font-weight-bold d-none d-md-flex d-lg-flex d-xl-flex"
-                          style="width: 160px; border-width: 2px;"
-                          elevation="0"
-                          outlined
-                        >
-                          Contact Us
-                        </v-btn>
-                    </div>
-                  </div>
-                </v-col>
-                <v-col lg="6" md="6" sm="12" align="center">
-                  <v-img
-                    lazy-src="omni/Header-min.png"
-                    src="omni/Header-min.png"
-                    max-width="95%"
-                    max-height="95%"
-                  >
-
-                  </v-img>
-                </v-col>
-              </div>
-            </div>
+          <div class="my-15">
+            <v-btn class="btn-primary text-h6 font-weight-black mx-auto mr-sm-5 mb-5" style="width: 250px;" x-large rounded-sm elevation="0">
+                TRY IT FOR FREE
+            </v-btn>
+            <v-btn class="btn-secondary text-subtitle-1 font-weight-bold mx-auto mb-5" color="#f9f9f9" style="width: 160px;" x-large rounded-sm outlined>
+                Contact Us
+            </v-btn>
           </div>
         </v-col>
-
-      </v-col>
-          <hr class="vector-1">
-          <hr class="vector-2">
-          <hr class="vector-3">
-          <hr class="vector-4">
-  </v-row>
+        <v-col cols="12" md="6">
+            <v-img class="ma-auto" :src="require('@/assets/img/omni/Header-min.webp')" max-width="700px" height="auto"></v-img>
+        </v-col>
+        <hr class="vector-1">
+        <hr class="vector-2">
+        <hr class="vector-3">
+        <hr class="vector-4">
+      </v-row>
+    </v-container>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    items: ['EN', 'ID'],
-  }),
-}
-</script>
-
-<style>
-  h1{
-    font-size: 70px;
-    color: #F9F9F9;
-  }
-  p{
-    color: #F9F9F9;
-  }
-  .app-bar{
-    box-shadow: 0dp;
-  }
-  .theme--light.v-select .v-select__selections {
-    color: #F9F9F9;
-    min-height: 10px;
-  }
-  .theme--light.v-icon {
-    color: #F9F9F9;
-  }
-  .theme--light.v-text-field > .v-input__control > .v-input__slot::before {
-    border-color: #F9F9F9;
-  }
-  .theme--light.v-text-field:not(.v-input--has-state):hover > .v-input__control > .v-input__slot::before {
-    border-color: #F9F9F9;
-  }
-  .theme--light.v-text-field:not(.v-input--has-state):hover > .v-input__control > .v-input__slot::after {
-    border-color: #FFFFFF;
-  }
-  .omni{
-    font-family: "Source Sans Pro", sans-serif;
+<style scoped>
+.omni-logo{
     font-weight: bold;
     font-size: 18px;
-  }
-  .bt-text{
-    font-family: "Montserrat", sans-serif;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 0px;
-  }
-  .v-btn{
-    border-radius: 4px;
-  }
-  .v-select{
-    width: 50px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-  }
-  .btn1{
+}
+h1{
+  font-size: 70px;
+  line-height: 130%;
+  color: #F9F9F9;
+}
+p{
+    font-size: 18px;
+    line-height: 150%;
+    color: #F9F9F9;
+}
+.btn1{
+  width: 110px;
+}
+.btn-primary{
     width: 110px;
-  }
+    background-color: #F9F9F9;
+    border: none;
+    color:#1052A8;
+    font-weight: bold;
+}
+.btn-secondary{
+    width: 110px;
+    border-width: 1.5px;
+    color:#F9F9F9;
+    font-weight: bold;
+}
 </style>

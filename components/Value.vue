@@ -8,6 +8,7 @@
                     <v-icon
                       large
                       left
+                      color="#f9f9f9"
                     >
                     mdi-cloud-outline
                     </v-icon>
@@ -26,6 +27,7 @@
                     <v-icon
                       large
                       left
+                      color="#f9f9f9"
                     >
                     mdi-earth
                     </v-icon>
@@ -44,6 +46,7 @@
                     <v-icon
                       large
                       left
+                      color="#f9f9f9"
                     >
                     mdi-account-circle-outline
                     </v-icon>
@@ -68,7 +71,7 @@
         border-color: rgb(255, 255, 255, 0.3);
     }
     .v-card__subtitle, .v-card__text {
-        font-size: 0.875rem;
+        font-size: 0.95rem;
         font-weight: 400;
         line-height: 1.375rem;
         letter-spacing: 0.0071428571em;

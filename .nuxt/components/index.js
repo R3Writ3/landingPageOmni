@@ -1,16 +1,14 @@
-export const AboutSection = () => import('../..\\components\\AboutSection.vue' /* webpackChunkName: "components/about-section" */).then(c => wrapFunctional(c.default || c))
-export const AboutSection2 = () => import('../..\\components\\AboutSection2.vue' /* webpackChunkName: "components/about-section2" */).then(c => wrapFunctional(c.default || c))
-export const AboutSection3 = () => import('../..\\components\\AboutSection3.vue' /* webpackChunkName: "components/about-section3" */).then(c => wrapFunctional(c.default || c))
-export const Benefit = () => import('../..\\components\\Benefit.vue' /* webpackChunkName: "components/benefit" */).then(c => wrapFunctional(c.default || c))
-export const ContactUs = () => import('../..\\components\\ContactUs.vue' /* webpackChunkName: "components/contact-us" */).then(c => wrapFunctional(c.default || c))
-export const Features = () => import('../..\\components\\Features.vue' /* webpackChunkName: "components/features" */).then(c => wrapFunctional(c.default || c))
-export const FooterSection = () => import('../..\\components\\FooterSection.vue' /* webpackChunkName: "components/footer-section" */).then(c => wrapFunctional(c.default || c))
-export const FreeTrial = () => import('../..\\components\\FreeTrial.vue' /* webpackChunkName: "components/free-trial" */).then(c => wrapFunctional(c.default || c))
-export const HomeSection = () => import('../..\\components\\HomeSection.vue' /* webpackChunkName: "components/home-section" */).then(c => wrapFunctional(c.default || c))
-export const Integration = () => import('../..\\components\\Integration.vue' /* webpackChunkName: "components/integration" */).then(c => wrapFunctional(c.default || c))
-export const Navigation = () => import('../..\\components\\Navigation.vue' /* webpackChunkName: "components/navigation" */).then(c => wrapFunctional(c.default || c))
-export const Partnership = () => import('../..\\components\\Partnership.vue' /* webpackChunkName: "components/partnership" */).then(c => wrapFunctional(c.default || c))
-export const Value = () => import('../..\\components\\Value.vue' /* webpackChunkName: "components/value" */).then(c => wrapFunctional(c.default || c))
+export { default as AboutSection } from '../..\\components\\AboutSection.vue'
+export { default as AboutSection2 } from '../..\\components\\AboutSection2.vue'
+export { default as AboutSection3 } from '../..\\components\\AboutSection3.vue'
+export { default as Benefit } from '../..\\components\\Benefit.vue'
+export { default as ContactUs } from '../..\\components\\ContactUs.vue'
+export { default as FooterSection } from '../..\\components\\FooterSection.vue'
+export { default as FreeTrial } from '../..\\components\\FreeTrial.vue'
+export { default as HomeSection } from '../..\\components\\HomeSection.vue'
+export { default as Integration } from '../..\\components\\Integration.vue'
+export { default as Partnership } from '../..\\components\\Partnership.vue'
+export { default as Value } from '../..\\components\\Value.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

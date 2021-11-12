@@ -1,19 +1,18 @@
 <template>
-    <v-row justify="center" align="center">
-        <v-col class="col-12 col-md-6">
-            <v-row class="mb-15 mb-md-15 mb-sm-0">
-                <v-col cols="12">
-                    <h2 class="ml-auto mb-auto" style="max-width:400px;">Integrate to Your Favourite Social Media</h2>
-                </v-col>
-                <v-col cols="12">
-                    <p class="mt-auto ml-auto" style="max-width:400px;">
-                        Choose your favourite channel you want to integrate and your omnichannel is ready.
-                    </p>
-                </v-col>
-            </v-row>
+    <v-row class="text-center text-md-left">
+        <v-col class="col-12 col-md-5 ml-md-15">
+            <h2 class="d-none d-md-flex d-lg-flex ml-md-auto mb-auto my-5" style="max-width:400px">Integrate to Your Favourite Social Media</h2>
+            <p class="d-none d-md-flex d-lg-flex ml-md-auto auto mb-auto my-6" style="max-width:400px">
+                Choose your favourite channel you want to integrate and your omnichannel is ready.
+            </p>
+            <!-- Only visible in SM or below -->
+            <h2 class="d-md-none d-lg-none ml-md-15 my-5">Integrate to Your Favourite Social Media</h2>
+            <p class="d-md-none d-lg-none ml-md-15 my-6">
+                Choose your favourite channel you want to integrate and your omnichannel is ready.
+            </p>
         </v-col>
         <v-col class="col-12 col-md-6">
-            <v-img class="mb-5 mr-auto" lazy-src="omni/All-Channel-Integrations-min.png" src="omni/All-Channel-Integrations-min.png" style="max-width:500px; max-height:500px;"></v-img>
+            <v-img class="ma-auto ma-lg-auto mr-md-auto" :src="require('@/assets/img/omni/All-Channel-Integrations-min.webp')" style="max-width:500px; max-height:500px;"></v-img>
         </v-col>
     </v-row>
 </template>
