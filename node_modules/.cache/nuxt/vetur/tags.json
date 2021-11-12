@@ -14,9 +14,6 @@
   "ContactUs": {
     "description": "Auto imported from components/ContactUs.vue"
   },
-  "Features": {
-    "description": "Auto imported from components/Features.vue"
-  },
   "FooterSection": {
     "description": "Auto imported from components/FooterSection.vue"
   },
@@ -28,9 +25,6 @@
   },
   "Integration": {
     "description": "Auto imported from components/Integration.vue"
-  },
-  "Navigation": {
-    "description": "Auto imported from components/Navigation.vue"
   },
   "Partnership": {
     "description": "Auto imported from components/Partnership.vue"
