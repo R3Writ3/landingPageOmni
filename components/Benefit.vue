@@ -16,7 +16,7 @@
                             <v-card class="text-center mx-auto gr-blue mr-0 pt-md-5" width="330" height="210" max-height="100%" max-width="100%" outlined>
                                 <div class="pt-5 pt-md-0 pt-sm-5">
                                     <v-icon x-large color="#f9f9f9">
-                                        mdi-lan-connect
+                                        mdi-map-marker-radius-outline
                                     </v-icon>
                                     <div class="pt-5">
                                     <v-col cols="12" class="pa-0">
