@@ -140,6 +140,6 @@ span{
     line-height: 150%;
 }
 .text-body-2{
-    font-size: 0.92rem !important;
+    font-size: 0.935rem !important;
 }
 </style>
